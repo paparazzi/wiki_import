@@ -1,0 +1,28 @@
+/* Removes table horizontal scrollbar and fits table content to page */
+.wy-table-responsive table td {
+white-space: normal;
+}
+
+/* Selectors outrank the theme's alternating-row backgrounds. */
+/* Pinout colors: mark a cell with <span class="pin-orange">...</span>. */
+.rst-content .pinout table.docutils thead th { background-color: #f0f0f0; color: black; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-black-white) { background-color: black; color: white; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-orange) { background-color: orange; color: black; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-cyan) { background-color: cyan; color: black; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-orangered) { background-color: orangered; color: black; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-green) { background-color: green; color: black; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-red) { background-color: red; color: black; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-lightyellow) { background-color: lightyellow; color: black; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-green-white) { background-color: green; color: white; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-blue-white) { background-color: blue; color: white; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-sienna-white) { background-color: sienna; color: white; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-grey-white) { background-color: grey; color: white; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-yellow) { background-color: yellow; color: black; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-red-white) { background-color: red; color: white; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-d0d0d0) { background-color: #d0d0d0; color: black; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-white) { background-color: white; color: black; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-e0ffff) { background-color: #e0ffff; color: black; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-efefef) { background-color: #efefef; color: black; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-orange-white) { background-color: orange; color: white; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-purple-white) { background-color: purple; color: white; }
+.rst-content .pinout table.docutils tbody tr td:has(.pin-orangered-white) { background-color: orangered; color: white; }
